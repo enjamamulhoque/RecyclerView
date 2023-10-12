@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <TextView
+        android:id="@+id/item_recycler_view_user_name_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ethan Hawke"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:ellipsize="end"/>
+
+    <TextView
+        android:id="@+id/item_recycler_view_user_profession_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actor"
+        android:maxLines="2"
+        android:ellipsize="end"/>
+
+</LinearLayout>
